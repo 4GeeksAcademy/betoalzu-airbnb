@@ -26,7 +26,7 @@ export default function Home() {
   );
 
   return (
-    <div className="min-h-screen bg-zinc-50 dark:bg-black">
+    <div className="min-h-screen bg-zinc-50">
       <Navbar />
       <div className="max-w-6xl mx-auto px-2 py-4">
         {/* Barra de búsqueda grande */}
