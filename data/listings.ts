@@ -16,7 +16,7 @@ export const LISTINGS: Listing[] = [
     price: 158,
     rating: 5,
     image:
-      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=80",
+      "",
     subtitle: "14-16 ago · Anfitrion particular",
     total: "158 EUR en total",
     tag: "Recomendacion del viajero",

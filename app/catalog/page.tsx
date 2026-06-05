@@ -17,10 +17,8 @@ export default function CatalogPage() {
     const filtered = LISTINGS.filter((item) =>
       item.title.toLowerCase().includes(search.toLowerCase())
     );
-
-    return [...filtered].sort((a, b) =>
-      sortOrder === "asc" ? a.price - b.price : b.price - a.price
-    );
+    const listaOrdenada = [...filtered].sort((a, b) => sortOrder === "asc" ? a.price - b.price : b.price - a.price);
+    return listaOrdenada;
   }, [search, sortOrder]);
 
   return (

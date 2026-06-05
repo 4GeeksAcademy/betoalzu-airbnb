@@ -1,4 +1,21 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+# Proyecto Airbnb Clone
+
+Este proyecto es un clon simplificado de Airbnb desarrollado con [Next.js](https://nextjs.org) y TypeScript. Permite explorar listados de alojamientos, ver detalles de habitaciones y filtrar por categorías.
+
+## Funcionalidades implementadas
+
+- Catálogo de alojamientos con tarjetas (`Card`, `CardGrid`).
+- Filtro de categorías (`CategoryFilter`).
+- Barra de búsqueda (`SearchBar`).
+- Navegación principal (`Navbar`).
+- Página de detalles de habitación.
+- Carga de datos simulada desde archivos locales en `data/`.
+- Loader y componentes reutilizables.
+
+---
+
+Este proyecto fue bootstrapped con [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
